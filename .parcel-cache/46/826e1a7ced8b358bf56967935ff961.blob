@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background: url(imgs/sam-dan-truong.jpg) no-repeat center center fixed;
+    background: url(899b8b904ac04e3fac3b8cea98721b91) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -58,7 +58,7 @@ span {
 .result_detail {
     display: flex;
     width: 100%;
-    padding: .3rem 0 .2rem .7rem;
+    padding: .3rem .5rem .7rem;
     flex-direction: column;
 }
 

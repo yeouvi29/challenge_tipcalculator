@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background: url(imgs/sam-dan-truong.jpg) no-repeat center center fixed;
+    background: url(899b8b904ac04e3fac3b8cea98721b91) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,14 +19,16 @@ body {
     grid-template-rows: repeat(4, 1fr), min-content;
     grid-gap: .3rem;
     background-color: #e8c2ca;
-    /* border: 3px solid #735d78; */
-    border: 3px solid #140618;
+    border: 3px solid #735d78;
     border-radius: 40px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     overflow: hidden;
     padding-top: 1rem;
+    -webkit-perspective: 1000;
+    perspective: 1000;
     padding-top: 1.5rem;
-    margin-right: 10%;
+    margin-right: 15%;
+    width: 270px;
 }
 
 h1 {
@@ -167,6 +169,7 @@ input::-webkit-inner-spin-button {
     height: 60px;
     justify-self: center;
     align-self: center;
+    box-shadow: 1px 1px 1px #735d78;
     text-align: center;
     color: #e8c2ca;
     font-size: 1rem;
@@ -176,7 +179,7 @@ input::-webkit-inner-spin-button {
     background-color: #3e1f47;
     border: none;
     /* border-top: 2px solid #f7d1cd; */
-    /* box-shadow: 1px 1px 1px #735d78; */
+    box-shadow: 1px 1px 1px #735d78;
 }
 
 .btn:first-child {
@@ -184,15 +187,15 @@ input::-webkit-inner-spin-button {
 }
 
 .btn:hover {
-    background-color: #f7d1cd;
+    background-color: #e8c2ca;
     color: #3e1f47;
-    /* transform: translateZ(.3rem); */
+    transform: translateZ(.3rem);
 }
 
 .btn:active {
     background-color: #735d78;
     color: #e8c2ca;
-    /* transform: translateZ(-.5rem); */
+    transform: translateZ(-.5rem);
 }
 
 .btn_calc {
@@ -210,7 +213,7 @@ input::-webkit-inner-spin-button {
     grid-template-rows: repeat(4, 40px);
     background-color: #e8c2ca;
     font-size: 1.5rem;
-    grid-gap: 1px;
+    grid-gap: 2px;
     /* border-top: 2px solid #f7d1cd; */
     border-radius: 5px;
     -webkit-perspective: 1000;
@@ -234,5 +237,5 @@ input::-webkit-inner-spin-button {
 .num:active {
     background-color: #735d78;
     color: white;
-    /* transform: translateZ(-1rem); */
+    transform: translateZ(-1rem);
 }

@@ -2,7 +2,7 @@
     <head>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/index.HASH_REF_8a6e625a6f078c797be837fbf556d9ac.css">
     </head>
     <body>
         <div class="calculator_container">
@@ -23,31 +23,31 @@
                 <div class="form_control" id="bill">
                     <label for="bill_value"> 
                         <svg class="icon">
-                            <use href="symbol-defs.svg#icon-coin-dollar"></use>
+                            <use href="/symbol-defs.HASH_REF_f67c425398af182d028b35ba9de5014e.svg"></use>
                         </svg> 
                          BILL
                     </label>
-                    <input type="text" class="input" id="bill_value" placeholder="" autocomplete="off"/>
+                    <input type="text" class="input" id="bill_value" placeholder="" autocomplete="off">
                 </div>
                 
                 <div class="form_control" id="tip">
                     <label for="tip_value">
                         <svg class="icon">
-                            <use href="symbol-defs.svg#icon-emoji-happy"></use>
+                            <use href="/symbol-defs.HASH_REF_f67c425398af182d028b35ba9de5014e.svg"></use>
                         </svg>
                          TIP %
                     </label>
-                    <input type="number" class="input" id="tip_value" placeholder="15" autocomplete="off"/>
+                    <input type="number" class="input" id="tip_value" placeholder="15" autocomplete="off">
                 </div>
                 
                 <div class="form_control" id="split">
                     <label for="split_value">
                         <svg class="icon">
-                            <use href="symbol-defs.svg#icon-users"></use>
+                            <use href="/symbol-defs.HASH_REF_f67c425398af182d028b35ba9de5014e.svg"></use>
                         </svg>
                          SPLIT
                     </label>
-                    <input type="number" class="input" id="split_value" placeholder="1" autocomplete="off"/>
+                    <input type="number" class="input" id="split_value" placeholder="1" autocomplete="off">
                 </div>
             </div>            
             <div class="number">
@@ -70,6 +70,6 @@
             <div>
         </div>
         
-        <script src="script.js"></script>
-    </body>
+        <script src="/index.HASH_REF_d231a23f43d60e28ed500b93b4f5078c.js"></script>
+    </div></div></body>
 </html>

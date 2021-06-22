@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <link rel="preconnect" href="c5b17644e9b6ae13bb384d72781855da">
+        <link href="e8f46ad76cdcb26e082fea7c9a6d237a" rel="stylesheet">
+        <link rel="stylesheet" href="989bd40690a8b825b2db35b3bf512629">
+    </head>
+    <body>
+        <div class="calculator_container">
+            <h1>TIP CALCULATOR</h1>
+            
+            <div class="result">
+                <div class="result_detail result_detail-big">
+                    <span class="total-text">BILL TOTAL</span> 
+                    <span class="dollar">$ <strong id="bill_total">0.00</strong></span>
+                </div>
+                <div class="result_detail resulst_detail-small">
+                    <span class="total-text">SPLIT TOTAL</span> 
+                    <span class="dollar dollar-small">$ <strong id="split_total">0.00</strong></span>
+                </div>
+            </div>
+            
+            <div class="input_container">
+                <div class="form_control" id="bill">
+                    <label for="bill_value"> 
+                        <svg class="icon">
+                            <use href="7389c551a684e8fbe4cc698e50506272"></use>
+                        </svg> 
+                         BILL
+                    </label>
+                    <input type="text" class="input" id="bill_value" placeholder="" autocomplete="off">
+                </div>
+                
+                <div class="form_control" id="tip">
+                    <label for="tip_value">
+                        <svg class="icon">
+                            <use href="c0d60610a3db2d317e4789b205b277c7"></use>
+                        </svg>
+                         TIP %
+                    </label>
+                    <input type="number" class="input" id="tip_value" placeholder="15" autocomplete="off">
+                </div>
+                
+                <div class="form_control" id="split">
+                    <label for="split_value">
+                        <svg class="icon">
+                            <use href="3bce72d996661eb00038f44eaa4f298e"></use>
+                        </svg>
+                         SPLIT
+                    </label>
+                    <input type="number" class="input" id="split_value" placeholder="1" autocomplete="off">
+                </div>
+            </div>            
+            <div class="number">
+                <div id="one" class="num">1</div>
+                <div id="two" class="num">2</div>
+                <div id="three" class="num">3</div>
+                <div id="four" class="num">4</div>
+                <div id="five" class="num">5</div>
+                <div id="six" class="num">6</div>
+                <div id="seven" class="num">7</div>
+                <div id="eight" class="num">8</div>
+                <div id="nine" class="num">9</div>
+                <div id="dot" class="num">.</div>
+                <div id="zero" class="num">0</div>
+                <div id="delete" class="num">del</div>
+            </div>
+            <div class="btns">
+                <button class="btn btn_calc">Calculate</button>
+                <button class="btn btn_clear">Clear</button>    
+            <div>
+        </div>
+        
+        <script src="ce9ef6fc924d25b1e9731a5384ee9f66"></script>
+    </div></div></body>
+</html>
