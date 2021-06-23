@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background: url(imgs/sam-dan-truong.jpg) no-repeat center center fixed;
+    background: url(sam-dan-truong.HASH_REF_0417ccd3d3debea112ee35e14e24ce18.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -238,3 +238,4 @@ input::-webkit-inner-spin-button {
     color: white;
     /* transform: translateZ(-1rem); */
 }
+/*# sourceMappingURL=index.HASH_REF_8a6e625a6f078c797be837fbf556d9ac.css.map */
