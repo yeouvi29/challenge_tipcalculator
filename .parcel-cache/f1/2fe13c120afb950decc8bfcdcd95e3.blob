@@ -13,9 +13,7 @@ const del = document.getElementById("delete");
 let curNumber;
 let curInputField;
 
-window.addEventListener("DOMContentLoaded", () => {
-  bill.focus();
-});
+window.addEventListener("DOMCOn");
 
 // When input field is clicked, find current input field and empty the curNumber
 inputContainer.addEventListener("click", function (e) {
@@ -27,7 +25,10 @@ inputContainer.addEventListener("click", function (e) {
 const alert = function () {
   if (!bill.value) console.log("Please insert bill.💵");
 };
-const calculate = () => {
+
+// When calculation button is clicked, calculate the total bill and split total and display them.
+btnCalc.addEventListener("click", function () {
+  // Defaul set
   if (!tip.value) tip.value = tip.placeholder;
   if (!people.value) people.value = people.placeholder;
 
@@ -42,15 +43,6 @@ const calculate = () => {
   // Display result
   total.textContent = calcTotal;
   split.textContent = calcPerEach;
-};
-// When calculation button is clicked, calculate the total bill and split total and display them.
-btnCalc.addEventListener("click", function () {
-  // Defaul set
-  calculate();
-});
-
-window.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") calculate();
 });
 
 // Number pad

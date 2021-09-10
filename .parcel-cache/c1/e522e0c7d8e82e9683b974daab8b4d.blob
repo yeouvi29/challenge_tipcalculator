@@ -46,11 +46,6 @@ const calculate = () => {
 // When calculation button is clicked, calculate the total bill and split total and display them.
 btnCalc.addEventListener("click", function () {
   // Defaul set
-  calculate();
-});
-
-window.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") calculate();
 });
 
 // Number pad

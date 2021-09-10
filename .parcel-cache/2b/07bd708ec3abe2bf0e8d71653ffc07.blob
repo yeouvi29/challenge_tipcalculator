@@ -49,10 +49,6 @@ btnCalc.addEventListener("click", function () {
   calculate();
 });
 
-window.addEventListener("keydown", (e) => {
-  if (e.key === "Enter") calculate();
-});
-
 // Number pad
 numberContainer.addEventListener("click", function (e) {
   if (!curInputField) return;
